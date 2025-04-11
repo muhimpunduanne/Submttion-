@@ -21,7 +21,7 @@ public class Main {
         System.out.println("Index of grade 90: " + manager.searchGrade(90));
 
         try {
-            System.out.println("Grade at index 10: " + manager.getGrade(10)); // Invalid index
+            System.out.println("Grade at index 10: " + manager.getGrade(10));
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Error: " + e.getMessage());
         }

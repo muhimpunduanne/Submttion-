@@ -31,16 +31,16 @@ public class GradeManager {
 
     // Method to sort grades
     public void sortGrades() {
-        Arrays.sort(grades, 0, count); // Sort only added grades
+        Arrays.sort(grades, 0, count);
     }
 
     public int searchGrade(int grade) {
         for (int i = 0; i < count; i++) {
             if (grades[i] == grade) {
-                return i; // Return index of the grade
+                return i;
             }
         }
-        return -1; // Grade not found
+        return -1;
     }
 
     public int getGrade(int index) {
